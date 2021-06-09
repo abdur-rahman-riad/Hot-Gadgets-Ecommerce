@@ -1,3 +1,108 @@
-h1{
-    color: red;
+html{
+    scroll-behavior: smooth;
 }
+*{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 100px;
+}
+.section-slideshow{
+    background-image: url("img/bg-2.png");
+    background-repeat: no-repeat;
+    background-size:110px;
+    background-position: left;
+}
+.slideshow{
+    /* background-color: #fff1f1; */
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-buy{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+.title-seeall a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 12px #c0bebe;
+    border-radius: 10px;
+}
+.card img{
+    padding: 35px 50px;
+}
+.price{
+    font-weight: bold;
+    color: orangered;
+    font-style: italic;
+}
+.card-title{
+    font-weight: bold;
+}
+.categorie-box{
+    background-color: white;
+    padding: 35px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: none;
+    margin: 50px 0;
+    box-shadow: 5px 5px 12px #c5c5c5;
+    cursor: pointer;
+}
+.cat-item-1{
+    border-radius: 0 20px 0 20px;
+    margin-right: 35px;
+    margin-left: 50px;
+}
+
+.cat-item-2{
+    border-radius: 20px 0 20px 0;
+}
+.cat-item-3{
+    border-radius: 20px 0 20px 0;
+}
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+hr{
+    color: orangered;
+}
+footer{
+    margin-top: 35px;
+    text-align: center;    
+}
+footer a{
+    text-decoration: none;
+    color: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+    .cat-item-1{
+        margin: auto;
+    }
+    .cat-item-2{
+        margin: 25px auto;
+    }
+    .cat-item-3{
+        margin: auto;
+    }
+
+  }

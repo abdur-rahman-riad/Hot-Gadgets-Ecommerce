@@ -26,6 +26,11 @@ section{
     border-radius: 8px;
     border: none;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+.btn-buy:hover{
+    background-color: crimson;
+    transform: scale(1.15);
 }
 .title-seeall a{
     text-decoration: none;
@@ -37,7 +42,12 @@ section{
     border: none;
     box-shadow: 5px 5px 12px #c0bebe;
     border-radius: 10px;
+    /* transition: transform 0.3s ease-in-out; */
+    cursor: pointer;
 }
+/* .card:hover{
+    transform: scale(1.03);
+} */
 .card img{
     padding: 35px 50px;
 }
@@ -60,6 +70,10 @@ section{
     margin: 50px 0;
     box-shadow: 5px 5px 12px #c5c5c5;
     cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.categorie-box:hover{
+    transform: scale(1.25);
 }
 .cat-item-1{
     border-radius: 0 20px 0 20px;
